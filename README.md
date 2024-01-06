@@ -296,8 +296,8 @@ curl -X PATCH http://localhost/api/admin/changeuserinfo/user_id1 \
 
 #### Request
 
-```bash
-curl -X DELETE http://localhost/api/admin/deleteuser/user_id1 \
+```curl
+ -X DELETE http://localhost/api/admin/deleteuser/user_id1 \
   -H "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 ```
 
